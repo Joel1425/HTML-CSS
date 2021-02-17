@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+<head>
+ <style type="text/css">
+  </style>
+ <title>Form</title>
+</head>
+<body>
+	<form action="dosomething" method="post">
+	Username: <input type="text" name="username" size="30" maxlength="10" value="Enter Name here"/>
+	<br/>
+	Male: <input type="radio" name="sex" value="male"/>
+	Female: <input type="radio" name="sex" value="female"/>
+	<br/>
+	<p>Select the type of foods you wanna have<p/>
+	Dosa <input type="checkbox" name="food" value="dosa"/>
+	Idli <input type="checkbox" name="food" value="idli"/>
+	Vada <input type="checkbox" name="food" value="vada"/>
+	Uttapam <input type="checkbox" name="food" value="uttapam"/>
+	<br/>
+	<select name="activities">
+	<option value="play">Guitar</option>
+	<option value="play">Piano</option>
+	<option value="play">Drums</option>
+	<option value="play">Violin</option>
+	</select>
+	<br/>
+	<textarea name="bio" rows="10" cols="40"  >
+	Type something here!
+	</textarea>
+	<br/>
+	Password: <input type="password" name="pword"/>
+	<br/>
+	<input type="file" name="data"/>
+	<br/>
+	<input type="Submit" value="submit"/>
+	</form>
+</body>
+</html>
